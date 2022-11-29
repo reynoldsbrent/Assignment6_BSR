@@ -2,6 +2,12 @@
  * @author Nathan Johnson, Bellarmine University
  *
  */
+
+/**
+ * This class creates a tree that will be traversed using the depth first search method
+ * @author brentreynolds
+ * @version Fall 2022, 11/29/22
+ */
 import java.util.Queue; // import the Queue class
 import java.util.LinkedList;
 public class Tree {
@@ -16,6 +22,14 @@ public class Tree {
 	/**
 	 * @return the root
 	 */
+	
+	/**
+	 * This method returns the height of the tree
+	 * @return the height of the tree
+	 */
+	public int getTreeHeight() {
+		return height;
+	}
 	
 	public Node getRoot() {
 		return root;

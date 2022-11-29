@@ -2,6 +2,12 @@
  * @author Nathan Johnson, Bellarmine University
  *
  */
+
+/**
+ * This class creates nodes that can be added to the tree
+ * @author brentreynolds
+ * @version Fall 2002, 11/29/22
+ */
 public class Node {
 	private int data;
 	private Node lChild;
